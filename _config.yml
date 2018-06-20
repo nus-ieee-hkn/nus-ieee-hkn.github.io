@@ -76,7 +76,7 @@ social-network-links:
   rss: true
   email: "nus.ieee.hkn@gmail.com"
   facebook: false
-  github: false
+  github: nus-ieee-hkn
   twitter: false
 #  reddit: yourname
 #  google-plus: +DeanAttali
@@ -101,7 +101,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "nus-ieee-hkn.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "nus-ieee-hkn.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
