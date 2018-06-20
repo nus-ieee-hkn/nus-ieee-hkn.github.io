@@ -1,15 +1,19 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About
+subtitle: NUS IEEE-HKN
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+IEEE-Eta Kappa Nu (IEEE-HKN)(https://www.ieee.org/education/hkn-index.html) is the student honor society of IEEE and is dedicated to encouraging and recognizing excellence in the IEEE-designated fields of interest.
+
+At National University of Singapore (NUS)(http://www.nus.edu.sg/), the chapter is named Lambda Omega. The role is to provide special opportunities for close Faculty/Student interactions and relationships, and provide opportunities for students to work together with other students and within their own governance structure that will help build needed skills for life that are not necessarily taught in a formal class environment.
+
+<!-- My name is Inigo Montoya. I have the following qualities:
 
 - I rock a great mustache
 - I'm extremely loyal to my family
 
-What else do you need?
+What else do you need? -->
 
 ### my history
 
