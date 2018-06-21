@@ -6,7 +6,7 @@ subtitle: IEEE-HKN NUS
 
 ### IEEE-HKN
 
-[IEEE-Eta Kappa Nu (IEEE-HKN)](https://www.ieee.org/education/hkn-index.html) is the student honor society of IEEE and is dedicated to encouraging and recognizing excellence in the IEEE-designated fields of interest.
+[IEEE-Eta Kappa Nu (IEEE-HKN)](https://hkn.ieee.org/) is the student honor society of IEEE and is dedicated to encouraging and recognizing excellence in the IEEE-designated fields of interest.
 
 ### Lambda Omega Chapter
 
