@@ -53,10 +53,10 @@
 										<form method="post" action="email.php">
 											<div class="row gtr-uniform">
 												<div class="col-6 col-12-xsmall">
-													<input type="text" name="name" id="name" value="" placeholder="Name" />
+													<input type="text" name="name" id="name" value="" placeholder="Name" required/>
 												</div>
 												<div class="col-6 col-12-xsmall">
-													<input type="email" name="email" id="email" value="" placeholder="Email" />
+													<input type="email" name="email" id="email" value="" placeholder="Email" required/>
 												</div>
 												<div class="col-12">
 													<select name="category" id="category">
@@ -68,7 +68,7 @@
 													</select>
 												</div>
 												<div class="col-4 col-12-small">
-													<input type="radio" id="designation" name="designation" checked>
+													<input type="radio" id="designation" name="designation">
 													<label for="student">Student</label>
 												</div>
 												<div class="col-4 col-12-small">
@@ -84,14 +84,14 @@
 													<label for="copy">Email me a copy</label>
 												</div>
 												<div class="col-6 col-12-small">
-													<input type="checkbox" id="human" name="human">
+													<input type="checkbox" id="human" name="human" required>
 													<label for="human">Not a robot</label>
 												</div>
 												<div class="col-12">
-													<textarea name="subject" id="subject" placeholder="Enter your subject" rows="1"></textarea>
+													<textarea name="subject" id="subject" placeholder="Enter your subject" rows="1" required></textarea>
 												</div>
 												<div class="col-12">
-													<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+													<textarea name="message" id="message" placeholder="Enter your message" rows="6" required></textarea>
 												</div>
 												<div class="col-12">
 													<ul class="actions">
