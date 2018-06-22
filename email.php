@@ -5,7 +5,8 @@ if(!isset($_POST['submit']))
 	echo "error; you need to submit the form!";
 }
 $name = $_POST['name'];
-$visitor_email = $_POST['email'];
+$email = $_POST['email'];
+$subject =$_POST['subject'];
 $message = $_POST['message'];
 
 //Validate first
