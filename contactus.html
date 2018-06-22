@@ -50,16 +50,16 @@
 								<!-- Form -->
 									<section>
 										<h4>Form</h4>
-										<form method="post" action="mailto:kuan.tzuhsiang@u.nus.edu" enctype="text/plain">
+										<form method="post" action="email.php">
 											<div class="row gtr-uniform">
 												<div class="col-6 col-12-xsmall">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+													<input type="text" name="name" id="name" value="" placeholder="Name" />
 												</div>
 												<div class="col-6 col-12-xsmall">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+													<input type="email" name="email" id="email" value="" placeholder="Email" />
 												</div>
 												<div class="col-12">
-													<select name="demo-category" id="demo-category">
+													<select name="category" id="category">
 														<option value="">- Category -</option>
 														<option value="1">General Enquiry</option>
 														<option value="1">Online Resources</option>
@@ -67,27 +67,27 @@
 													</select>
 												</div>
 												<div class="col-4 col-12-small">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low</label>
+													<input type="radio" id="student" name="student" checked>
+													<label for="student">Student</label>
 												</div>
 												<div class="col-4 col-12-small">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal</label>
+													<input type="radio" id="staff" name="staff">
+													<label for="staff">Staff</label>
 												</div>
 												<div class="col-4 col-12-small">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High</label>
+													<input type="radio" id="public" name="public">
+													<label for="public">Public</label>
 												</div>
 												<div class="col-6 col-12-small">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy</label>
+													<input type="checkbox" id="copy" name="copy" checked>
+													<label for="copy">Email me a copy</label>
 												</div>
 												<div class="col-6 col-12-small">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">Not a robot</label>
+													<input type="checkbox" id="human" name="human">
+													<label for="human">Not a robot</label>
 												</div>
 												<div class="col-12">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+													<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
 												</div>
 												<div class="col-12">
 													<ul class="actions">
