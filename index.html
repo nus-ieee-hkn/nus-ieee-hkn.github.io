@@ -1,72 +1,176 @@
----
-layout: page
-title: IEEE-HKN NUS
-subtitle: Lambda Omega Chapter
-use-site-title: true
----
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>IEEE-HKN NUS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
 
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">IEEE-HKN NUS</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
+											<!-- To be implemented -->
+											<li><a href="about.html"><i class="fa fa-info fa-fw" aria-hidden="true"></i>&nbsp; About</a></li>
+											<li><a href="news.html"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>&nbsp; News</a></li>
+											<li><a href="resources.html"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Resources</a></li>
+											<li><a href="committee.html"><i class="fa fa-user-secret fa-fw" aria-hidden="true"></i>&nbsp; Committee</a></li>
+											<li><a href="members.html"><i class="fa fa-users fa-fw" aria-hidden="true"></i>&nbsp; Members</a></li>
+											<li><a href="contactus.html"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp; Contact Us</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
 
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>IEEE-HKN NUS</h2>
+							<p>Lambda Omega<br />
+							a Chapter of <a href="https://hkn.ieee.org/">IEEE Eta Kappa Nu</a></p>
+							<ul class="actions special">
+								<li><a href="about.html" class="button primary">About</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
 
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <img src="{{ post.image }}">
-        </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-    </div>
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
 
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
+							<img src="images/ieee logo.png" alt="IEEE" width="400" height="125">
+							<img src="images/hkn logo.png" alt="HKN">
+							<br><br><br>							
 
-   </article>
-  {% endfor %}
-</div>
+							<header class="major">
+								<h2>Excellence in the profession and in education</h2>
+								<p align="justify">Founded on 28 October 1904 for students of electrical engineering, <a href="https://hkn.ieee.org/">IEEE Eta Kappa Nu (IEEE-HKN)</a> is the honour society of IEEE that strives to promote excellence in the profession and in education among its student members through developing the 3 ideals of Scholarship, Character, and Attitude.</p>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon fa-graduation-cap major style1"><span class="label">Scholarship</span></span></li>
+								<li><span class="icon fa-user major style2"><span class="label">Character</span></span></li>
+								<li><span class="icon fa-heart major style3"><span class="label">Attitude</span></span></li>
+							</ul>
+						</div>
+					</section>
 
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/scholarship.jpg" alt="" /></div><div class="content">
+								<h2>Scholarship</h2>
+								<p>As an honour society, Eta Kappa Nu members are required to have a scholastic rank and carry with them the distinction of superior scholarship</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/character.jpg" alt="" /></div><div class="content">
+								<h2>Character</h2>
+								<p>Eta Kappa Nu members are also expected to have unimpeachable character, have the capacity and willingness for hard work and be able to work in harmony with all types of people.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/peer tutoring.jpg" alt="" /></div><div class="content">
+								<h2>Attitude</h2>
+								<p>Eta Kappa Nu members must be naturally genial and should have the willingness to use their talents in service to their peers, university, and community.</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Sitemap</h2>
+								<p>Explore the IEEE-HKN NUS website here.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-info">
+									<h3><a href="about.html">About</a></h3>
+									<p>Learn more about IEEE-HKN and about the Lambda Omega Chapter.</p>
+								</li>
+								<li class="icon fa-newspaper-o">
+									<h3><a href="news.html">News</a></h3>
+									<p>Read more about the latest initiatives started by IEEE-HKN NUS and stay updated with upcoming events.</p>
+								</li>
+								<li class="icon fa-book">
+									<h3><a href="resources.html">Resources</a></h3>
+									<p>Need help? Look no further! Browse through the resources our members have curated for various modules offered by NUS Electrical Engineering department.</p>
+								</li>
+								<li class="icon fa-user-secret">
+									<h3><a href="committee.html">Committee</a></h3>
+									<p>Meet the people who spearhead the various initiatives lauched by IEEE-HKN NUS.</p>
+								</li>
+								<li class="icon fa-users">
+									<h3><a href="members.html">Members</a></h3>
+									<p>Interested in finding out who are in IEEE-HKN NUS? View all members.</p>
+								</li>
+								<li class="icon fa-envelope-o">
+									<h3><a href="contactus.html">Contact Us</a></h3>
+									<p>Have a question? Feel free to reach out to us!</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Having troubles with your studies?</h2>
+								<p>IEEE-HKN NUS has online resources prepared by our members who have gone through the same course as you for you to refer to. We also have a peer tutoring scheme.</p>
+							</header>
+							<ul class="actions stacked">
+								<li><a href="resources.html" class="button fit primary">Resources</a></li>
+								<li><a href="contactus.html" class="button fit">Contact Us</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://twitter.com/IEEE_EtaKappaNu?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/IEEE.HKN/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<!-- <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<li><a href="https://github.com/nus-ieee-hkn/nus-ieee-hkn.github.io" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="mailto:nus.ieee.hkn@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; IEEE-HKN NUS</li><li>Theme: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
