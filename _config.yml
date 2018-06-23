@@ -25,11 +25,13 @@ description: Welcome to the official IEEE-HKN NUS Lambda Omega Chapter website!
 navbar-links:
   Home: "http://nus-ieee-hkn.github.io"
   About: "about"
+  New: "news"
+  Resources: "resources"
   Committee: ""
   Members: ""
-  Resources:
-    - Electrical Engineering: "electrical"
-    - Computer Engineering: "computer"
+  # Resources:
+  #   - Electrical Engineering: "electrical"
+  #   - Computer Engineering: "computer"
   Contact Us: "contactus"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -85,7 +87,7 @@ social-network-links:
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
-  youtube: user/tobeimplemented
+  # youtube: user/tobeimplemented
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -96,7 +98,7 @@ social-network-links:
 share-links-active:
   twitter: false
   facebook: true
-  youtube: true
+  # youtube: true
   google: false
   linkedin: false
 
