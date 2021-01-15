@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 
-<html>
+<html style="overflow:auto">
 	<head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<meta HTTP-EQUIV="REFRESH" content="0; url=resources.php">
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138650989-2"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -33,7 +32,6 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="search.html"><i class="fa fa-search fa-fw" aria-hidden="true"></i>&nbsp; Search</a></li>
 											<li><a href="index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
 											<!-- To be implemented -->
 											<li><a href="about.html"><i class="fa fa-info fa-fw" aria-hidden="true"></i>&nbsp; About</a></li>
@@ -57,12 +55,47 @@
 							<p>Browse through the resources our members have curated<br>for various modules offered by NUS Electrical Engineering department.</p>
 						</header>
 					
-						<section class="wrapper style5">
+						<!-- Add new section here -->
+
+						<!-- Find past year paper solutions by module code. 
+                        Solution files to be added under (new) folder "past year papers/~ mod code~" 
+                        E.g. past year papers/CS1010E/CS1010E_AY1920_S2.pdf -->
+						<section class="wrapper style5" id="searchPYP">
 							<div class="inner">
+                                <h2>ECE Past Year Papers</h2>
+								<p>We are updating our database. Do look out for it in the near future!</p>
+								<form action="#searchPYP" method="get" id="pyp_form" style="margin: 0 0 0.5em; width: 85%; display:inline-block">
+									<input type="text" name="modCode" placeholder="Enter module code" value="" style="display:inline-block">
+                                </form>
+                                <button form="pyp_form" onclick="window.location='#searchPYP'">Search</button>
+                                <div>
+                                    <?php 
+                                        if (!empty($_GET)) {
+                                            $modCodeVal = $_GET['modCode'];
+                                            $modCodeVal = strtoupper($modCodeVal);
+                                            if ($modCodeVal != "") {
+                                                $dir = "past year papers/" . $modCodeVal;   
 
-								<!-- Add new section here -->
-
+                                                // Open a directory, and read its contents
+                                                if (is_dir($dir)){
+                                                    if ($dh = opendir($dir)){
+                                                        while (($file = readdir($dh)) !== false){
+                                                            if ($file != "." && $file != "..") 
+                                                                echo "<a href='" . $dir."/".$file . "'>".$file."</a><br>";  
+                                                        }
+                                                        closedir($dh);
+                                                    }
+                                                } else {
+                                                    echo '<br>Past year papers not found for "'.$modCodeVal.'".';
+                                                }
+                                            } else {
+                                                echo "<br>Please enter a module code.";
+                                            }
+                                        } 
+                                    ?>
+                                </div>
 							</div>
+						</section>
 					</article>
 
 
@@ -84,7 +117,7 @@
 
 			</div>
 
-			<!-- Scripts -->
+            <!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
