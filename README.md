@@ -1,6 +1,6 @@
-# NUS IEE HKN
+# NUS IEEE HKN
 
-This repository contains the code for the NUS IEE HKN website. It is currently hosted on GitHub pages, and built by Jekyll.
+This repository contains the code for the NUS IEEE HKN website. It is currently hosted on GitHub pages, and built by Jekyll.
 
 ## Description
 
