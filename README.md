@@ -4,7 +4,7 @@ This repository contains the code for the NUS IEEE HKN website. It is currently 
 
 ## Description
 
-Since the website uses Jekyll which supports Liquid. Liquid is a templating language that can load dynamic content. This allows for some neat features, such as layouts. [From the Liquid documentation](https://jekyllrb.com/docs/layouts/):
+The website uses Jekyll which supports Liquid, a templating language that can load dynamic content. This allows for some neat features, such as layouts. [From the Liquid documentation](https://jekyllrb.com/docs/layouts/):
 
 > Layouts are templates that wrap around your content. They allow you to have the source code for your template in one place so you don’t have to repeat things like your navigation and footer on every page.
 
