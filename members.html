@@ -7,10 +7,10 @@ description: Interested in finding out who are in IEEE-HKN NUS? View all members
 	
 <section class="wrapper style5">
 	<div class="inner">
-
 		<!-- Add new inducted members here -->
+		{% for yr in site.data.members %}
 		<section>
-			<h4 align="center">Inducted in Academic Year 2020/2021</h4>
+			<h4 align="center">{{ yr.name }}</h4>
 			<div class="table-wrapper">
 				<table>
 					<thead>
@@ -19,193 +19,14 @@ description: Interested in finding out who are in IEEE-HKN NUS? View all members
 						</tr>
 					</thead>
 					<tbody>
-						<tr><td align="center">Benita Wong Zi Xin</td></tr>
-						<tr><td align="center">Charles Tay Chao Jie</td></tr>
-						<tr><td align="center">Chung Ruei Chieh Rachel</td></tr>
-						<tr><td align="center">Daniel Lim</td></tr>
-						<tr><td align="center">Jerome Teo</td></tr>
-						<tr><td align="center">Kai Yang Tay</td></tr>
-						<tr><td align="center">Kei Sen Fong</td></tr>
-						<tr><td align="center">Ker Chin Tian</td></tr>
-						<tr><td align="center">Kingston Kuan Jun Xiang</td></tr>
-						<tr><td align="center">Kwek Zhan Hao</td></tr>
-						<tr><td align="center">Low Fang Ming</td></tr>
-						<tr><td align="center">Matsutake Teppei</td></tr>
-						<tr><td align="center">Minh Nguyen Nguyen</td></tr>
-						<tr><td align="center">Nguyen Tien Khoa</td></tr>
-						<tr><td align="center">Ricky Wahyudi</td></tr>
-						<tr><td align="center">Shreya Pande</td></tr>
-						<tr><td align="center">Tan Yan Quan</td></tr>
-						<tr><td align="center">Tra Quang Minh Thong</td></tr>
-						<tr><td align="center">Vishruti Ranjan</td></tr>
-						<tr><td align="center">Wamika Malik</td></tr>
-						<tr><td align="center">Wang Zesong</td></tr>
-						<tr><td align="center">Wira Azmoon Ahmad</td></tr>	
+						{% for member in yr.members %}
+						<tr><td align="center">{{ member }}</td></tr>
+						{% endfor %}
 					</tbody>
 				</table>
 			</div>
 		</section>
 
-		<br>
-		<br>
-
-		<section>
-			<h4 align="center">Inducted in Academic Year 2019/2020</h4>
-			<div class="table-wrapper">
-				<table>
-					<thead>
-						<tr>
-							<th></th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr><td align="center">Ganapathy Sanath Balaji</td></tr>
-						<tr><td align="center">Mohideen Imran Khan S/O Z</td></tr>
-						<tr><td align="center">Nathania Santoso</td></tr>
-						<tr><td align="center">Oei Chiu Yan Rebecca</td></tr>
-						<tr><td align="center">Rohan Arya Varma</td></tr>
-						<tr><td align="center">Su Haotian</td></tr>
-						<tr><td align="center">Tanat Tippinyu</td></tr>
-						<tr><td align="center">Wu Zhen</td></tr>
-						<tr><td align="center">Zhao Shi</td></tr>	
-					</tbody>
-				</table>
-			</div>
-		</section>
-
-		<br>
-		<br>
-
-		<section>
-			<h4 align="center">Inducted in Academic Year 2018/2019</h4>
-			<div class="table-wrapper">
-				<table>
-					<thead>
-						<tr>
-							<th></th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr><td align="center">Bhatt Paras Krishna</td></tr>
-						<tr><td align="center">Guo Haoren</td></tr>
-						<tr><td align="center">Jin Minjia</td></tr>
-						<tr><td align="center">Julio Hernando Wongso</td></tr>
-						<tr><td align="center">Liu Xiaofeng</td></tr>
-						<tr><td align="center">Neo Yu Yao Terence</td></tr>
-						<tr><td align="center">Nicholas Alexander</td></tr>
-						<tr><td align="center">Saif Uddin Mahmud</td></tr>
-						<tr><td align="center">Tan Jin Jie</td></tr>
-						<tr><td align="center">Tong Xintong</td></tr>
-						<tr><td align="center">Vikash Jeyathevan</td></tr>
-					</tbody>
-				</table>
-			</div>
-		</section>
-
-		<br>
-		<br>
-
-		<section>
-			<h4 align="center">Inducted in Academic Year 2017/2018</h4>
-			<div class="table-wrapper">
-				<table>
-					<thead>
-						<tr>
-							<th></th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr><td align="center">Prof. Qiu Chengwei</td></tr>
-						<tr><td align="center">Chen Yingyi</td></tr>
-						<tr><td align="center">Huang Li</td></tr>
-						<tr><td align="center">Jin Shuyuan</td></tr>
-						<tr><td align="center">Kat Li Yang</td></tr>
-						<tr><td align="center">Kennard Ng</td></tr>
-						<tr><td align="center">Koo Chong Hao, Daryl</td></tr>
-						<tr><td align="center">Kuan Tzu Hsiang</td></tr>
-						<tr><td align="center">Lai Yan Kai</td></tr>
-						<tr><td align="center">Lim Keng Zhi</td></tr>
-						<tr><td align="center">Liu Kaiqi</td></tr>
-						<tr><td align="center">Liu Xingsi</td></tr>
-						<tr><td align="center">Siidheesh Theivasigamani</td></tr>
-						<tr><td align="center">Yang Shuli</td></tr>
-						<tr><td align="center">Yew Wei Jian</td></tr>
-					</tbody>
-				</table>
-			</div>
-		</section>
-
-		<br>
-		<br>
-
-		<section>
-			<h4 align="center">Inducted in Academic Year 2016/2017</h4>
-			<div class="table-wrapper">
-				<table>
-					<thead>
-						<tr>
-							<th></th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr><td align="center">Amit Kumar Singh</td></tr>
-						<tr><td align="center">Cheng Huimin</td></tr>
-						<tr><td align="center">Choi Lai Hin</td></tr>
-						<tr><td align="center">Fang Xinyi</td></tr>
-						<tr><td align="center">Ma Jun</td></tr>
-						<tr><td align="center">Manick Inder Singh Kalra</td></tr>
-						<tr><td align="center">My Duy Hoang Long</td></tr>
-						<tr><td align="center">Ong Jun Xiong Putra</td></tr>
-						<tr><td align="center">Paul Tan</td></tr>
-						<tr><td align="center">Pen Xian Bin, Eugene</td></tr>
-						<tr><td align="center">Ren Changhao</td></tr>
-						<tr><td align="center">Shailesh Nahata</td></tr>
-						<tr><td align="center">Tan Te Juin Lester</td></tr>
-						<tr><td align="center">Varun Gupta</td></tr>
-						<tr><td align="center">Zhao Yue</td></tr>
-						<tr><td align="center">Zheng Xin</td></tr>
-					</tbody>
-				</table>
-			</div>
-		</section>
-
-		<br>
-		<br>
-
-		<section>
-			<h4 align="center">Inducted in Academic Year 2015/2016</h4>
-			<div class="table-wrapper">
-				<table>
-					<thead>
-						<tr>
-							<th></th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr><td align="center">Prof. Low Teck Seng</td></tr>
-						<tr><td align="center">Aaron Sim Hao Ru</td></tr>
-						<tr><td align="center">Ang Kah Min, Kelvin</td></tr>
-						<tr><td align="center">Chang Chu-Ming</td></tr>
-						<tr><td align="center">Chen Si</td></tr>
-						<tr><td align="center">Chen Shan</td></tr>
-						<tr><td align="center">Chong Yun Peng</td></tr>
-						<tr><td align="center">Daryl Yong Jian Wen</td></tr>
-						<tr><td align="center">Ge Xuyan</td></tr>
-						<tr><td align="center">Lee Jie Long</td></tr>
-						<tr><td align="center">Li Junbo</td></tr>
-						<tr><td align="center">Liu Rensheng</td></tr>
-						<tr><td align="center">Manaswi Singh</td></tr>
-						<tr><td align="center">Miao Yanjie</td></tr>
-						<tr><td align="center">Ng Ren Zhi</td></tr>
-						<tr><td align="center">Shen Siyuan</td></tr>
-						<tr><td align="center">Snigdha Singhania</td></tr>
-						<tr><td align="center">Tan Jian Liang</td></tr>
-						<tr><td align="center">Wu Limin</td></tr>
-						<tr><td align="center">Yap Lin Hui</td></tr>
-					</tbody>
-				</table>
-			</div>
-		</section>
-
-	</div>
+		<br><br>
+		{% endfor %}
 </section>
