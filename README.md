@@ -34,4 +34,4 @@ To be able to test the site locally, Jekyll would have to be setup as per the in
 
 ## Usage
 
-Take a look at the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) to see the different aspects that can be used. Notably, there is currently a single default layout `_layouts/default.html` which removes the need for repeating the header and footer in every new webpage. In the near future, the committee and members pages can perhaps make use of data files instead.
+Take a look at the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) to see the different aspects that can be used. Notably, there is currently a single default layout `_layouts/default.html` which removes the need for repeating the header and footer in every new webpage.
