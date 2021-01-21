@@ -1,11 +1,7 @@
----
-layout: default
-title: Search
-permalink: /search/
-description: Search through the entire site here.
----
-	
-<section class="wrapper style5">
+<section id="search" class="wrapper style5 special">
+    <header class="major">
+		<h2>Search through the entire site here.</h2>
+	</header>
 	<div class="inner">
 		<!-- This programmable search can be setup here: https://programmablesearchengine.google.com/cse/all -->
 		<script async src="https://cse.google.com/cse.js?cx=9307191336a18f658"></script>
@@ -16,7 +12,9 @@ description: Search through the entire site here.
 				* { all: unset; }
 			}
 		</style>
-		<div class="gcse-search"></div>
-
+        <div class="gcse-search"></div>
+        <ul class="actions stacked">
+			<li><a href="{% link contactus.html %}" class="button fit primary">Contact Us</a></li>
+		</ul>
 	</div>
 </section>
