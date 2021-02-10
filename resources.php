@@ -58,62 +58,42 @@
 						<!-- Add new section here -->
 
 						<!-- Find past year paper solutions by module code. 
-                        Solution files to be added under (new) folder "past year papers/~ MOD CODE (in caps)~" 
-                        E.g. past year papers/CS1010E/CS1010E AY1920 S2.pdf 
-						Please do not create empty folders.-->
+                        Solution files to be added under (new) folder "past year papers/~ mod code~" 
+                        E.g. past year papers/CS1010E/CS1010E_AY1920_S2.pdf -->
 						<section class="wrapper style5" id="searchPYP">
 							<div class="inner">
                                 <h2>ECE Past Year Papers</h2>
 								<p>We are updating our database. Do look out for it in the near future!</p>
-								<input id="pyp_form" onkeydown="if (event.keyCode == 13) find_pyp()" type="text" name="modCode" placeholder="Enter module code" value="" style="margin: 0 0 0.5em; width: 85%; display:inline-block">
-                                <button onclick="find_pyp()">Search</button>
-								<div id="pyp_list"></div>
-								<!-- <a href="past year papers/CS1010E"></a> -->
-								<script>
-									var user_input = document.getElementById("pyp_form");
-									var pyp_list = document.getElementById("pyp_list");
-									function find_pyp() {
-										var insertHTML = "";
-										var modCode = user_input.value;
-										if (modCode != "") {
-											modCode = modCode.toUpperCase();
-											var dir = "past year papers/" + modCode;
-											var xhttp = new XMLHttpRequest;
-											xhttp.open('GET', dir);
-											xhttp.send();
-											xhttp.onload = function() {
-												if (xhttp.status == 404) {
-													insertHTML += "<br>Past year papers not found for " + modCode + ".";
-												} else {
-													var txt = xhttp.responseText;
-													var lines = txt.split('\n');
-													for (i = 0;i < lines.length;i++) {
-														if (lines[i].includes('<a href=') && lines[i].includes('.pdf')) {
-															if (insertHTML == "") insertHTML += "<br><ul>";
-															// console.log(lines[i]);
-															var regExp = /\a href="[^"]*\.pdf/g;
-															var match = lines[i].match(regExp)[0].slice(8);
-															// console.log(match);
-															var filename = match;
-															if (match.includes('past%20year%20papers')) {
-																filename = match.split("/");
-																filename = filename[filename.length-1];
-															}
-															filename = filename.replace(/%20/g," ");
-															// console.log(filename);
-															insertHTML += "<li><a href='"+dir+"/"+filename+"'>"+filename+"</a></li>";
-														}
-													}
-													insertHTML += "</ul>"
-												}
-												pyp_list.innerHTML = insertHTML;
-											}
-										} else {
-											insertHTML += "<br>Please enter a module code."
-											pyp_list.innerHTML = insertHTML;
-										}
-									}
-								</script>
+								<form action="#searchPYP" method="get" id="pyp_form" style="margin: 0 0 0.5em; width: 85%; display:inline-block">
+									<input type="text" name="modCode" placeholder="Enter module code" value="" style="display:inline-block">
+                                </form>
+                                <button form="pyp_form" onclick="window.location='#searchPYP'">Search</button>
+                                <div>
+                                    <?php 
+                                        if (!empty($_GET)) {
+                                            $modCodeVal = $_GET['modCode'];
+                                            $modCodeVal = strtoupper($modCodeVal);
+                                            if ($modCodeVal != "") {
+                                                $dir = "past year papers/" . $modCodeVal;   
+
+                                                // Open a directory, and read its contents
+                                                if (is_dir($dir)){
+                                                    if ($dh = opendir($dir)){
+                                                        while (($file = readdir($dh)) !== false){
+                                                            if ($file != "." && $file != "..") 
+                                                                echo "<a href='" . $dir."/".$file . "'>".$file."</a><br>";  
+                                                        }
+                                                        closedir($dh);
+                                                    }
+                                                } else {
+                                                    echo '<br>Past year papers not found for "'.$modCodeVal.'".';
+                                                }
+                                            } else {
+                                                echo "<br>Please enter a module code.";
+                                            }
+                                        } 
+                                    ?>
+                                </div>
 							</div>
 						</section>
 					</article>
