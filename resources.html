@@ -85,23 +85,22 @@
 												if (xhttp.status == 404) {
 													insertHTML += "<br>Past year papers not found for " + modCode + ".";
 												} else {
-													console.log(xhttp);
 													var txt = xhttp.responseText;
 													var lines = txt.split('\n');
 													for (i = 0;i < lines.length;i++) {
 														if (lines[i].includes('<a href=') && lines[i].includes('.pdf')) {
 															if (insertHTML == "") insertHTML += "<br><ul>";
-															console.log(lines[i]);
+															// console.log(lines[i]);
 															var regExp = /\a href="[^"]*\.pdf/g;
 															var match = lines[i].match(regExp)[0].slice(8);
-															console.log(match);
+															// console.log(match);
 															var filename = match;
 															if (match.includes('past%20year%20papers')) {
 																filename = match.split("/");
 																filename = filename[filename.length-1];
 															}
 															filename = filename.replace(/%20/g," ");
-															console.log(filename);
+															// console.log(filename);
 															insertHTML += "<li><a href='"+dir+"/"+filename+"'>"+filename+"</a></li>";
 														}
 													}
