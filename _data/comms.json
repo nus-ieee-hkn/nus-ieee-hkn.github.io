@@ -1,6 +1,6 @@
 [
   {
-    "name": "7TH COMMITTEE (2020)",
+    "name": "8th Committee (2021)",
     "semester": [
       {
         "members": [
@@ -49,7 +49,61 @@
             "name": "Wu Zhen"
           }
         ],
-        "semname": "SEMESTER 1 (AY2020/21)"
+        "semname": "Semester 2 (AY2020/21)"
+      }
+    ]
+  },
+  {
+    "name": "7th Committee (2020)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Vikash Jeyathevan"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Guo Haoren"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Tong Xintong"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Neo Yu Yao Terence"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Oei Chiu Yan Rebecca"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Su Haotian"
+          },
+          {
+            "designation": "Director of Special Projects & Treasurer",
+            "name": "Zhao Shi"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Nathania Santoso"
+          },
+          {
+            "designation": "Club Service Director",
+            "name": "Rohan Arya Varma"
+          },
+          {
+            "designation": "Director of Information Technology",
+            "name": "Ganapathy Sanath Balaji"
+          },
+          {
+            "designation": "Director of Publicity",
+            "name": "Wu Zhen"
+          }
+        ],
+        "semname": "Semester 1 (AY2020/21)"
       },
       {
         "members": [
@@ -90,12 +144,12 @@
             "name": "Julio Hernando Wongso"
           }
         ],
-        "semname": "SEMESTER 2 (AY2019/20)"
+        "semname": "Semester 2 (AY2019/20)"
       }
     ]
   },
   {
-    "name": "6TH COMMITTEE (2019)",
+    "name": "6th Committee (2019)",
     "semester": [
       {
         "members": [
@@ -136,7 +190,7 @@
             "name": "Julio Hernando Wongso"
           }
         ],
-        "semname": "SEMESTER 1 (AY2019/20)"
+        "semname": "Semester 1 (AY2019/20)"
       },
       {
         "members": [
@@ -161,12 +215,12 @@
             "name": "Kuan Tzu Hsiang"
           }
         ],
-        "semname": "SEMESTER 2 (AY2018/19)"
+        "semname": "Semester 2 (AY2018/19)"
       }
     ]
   },
   {
-    "name": "5TH COMMITTEE (2018)",
+    "name": "5th Committee (2018)",
     "semester": [
       {
         "members": [
@@ -195,7 +249,7 @@
     ]
   },
   {
-    "name": "4TH COMMITTEE (2016)",
+    "name": "4th Committee (2016)",
     "semester": [
       {
         "members": [
