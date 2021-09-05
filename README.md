@@ -1,45 +1,29 @@
-Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# LAMBDA OMEGA CHAPTER
+
+https://nushkn.org/index.html
+
+At National University of Singapore the chapter of IEEE-HKN is named Lambda Omega. The Lambda Omega Chapter is the 176th chapter of IEEE-HKN founded on 2 February 2013.
+
+The mission of the Lambda Omega Chapter is to provide special opportunities for close Faculty/Student interactions and relationships, and provide opportunities for students to develop life skills not taught in a formal class environment.
 
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
-
-- It's built with components from my Responsive Tools project.
-
-- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
-
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
-
-  (* = still entirely optional if you prefer vanilla CSS :)
-
-- A ton of other stuff.
-
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
+**Acknowledgements**:
 
 	Demo Images:
 		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)
+		
+	Web Previews:
+		Netlify (www.netlify.com)
 
 	Other:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg"/>
+</a>
