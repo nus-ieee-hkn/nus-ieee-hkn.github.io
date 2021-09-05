@@ -1,45 +1,37 @@
-Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# NUS IEEE HKN
 
+This repository contains the code for the NUS IEEE HKN website. It is currently hosted on GitHub pages, and built by Jekyll.
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+## Description
 
-- It's built with components from my Responsive Tools project.
+The website uses Jekyll which supports Liquid, a templating language that can load dynamic content. This allows for some neat features, such as layouts. [From the Liquid documentation](https://jekyllrb.com/docs/layouts/):
 
-- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
+> Layouts are templates that wrap around your content. They allow you to have the source code for your template in one place so you don’t have to repeat things like your navigation and footer on every page.
 
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
+## Installation
 
-  (* = still entirely optional if you prefer vanilla CSS :)
+To be able to test the site locally, Jekyll would have to be setup as per the instructions on [GitHub's own documentation](https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll).
 
-- A ton of other stuff.
+1. [Follow the instructions to install Jekyll and its requirements here.](https://jekyllrb.com/docs/installation/) Note that Jekyll is a Ruby gem and requires a Ruby installation.
+1. Open up a terminal and install bundler, also a Ruby gem.
+	```
+	$ gem install bundler
+	```
+1. Install all the required gems.
+	```
+	$ bundle install
+	```
+1. Run the site locally.
+	```
+	$ bundle exec jekyll serve
+	```
+1. The terminal should show the following if the installation is correct.
+	```
+	    Server address: http://127.0.0.1:4000/
+  	  Server running... press ctrl-c to stop.
+	```
+1. Open up http://127.0.0.1:4000/ or http://localhost:4000/ on a browser to test the site.
 
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
+## Usage
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Take a look at the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) to see the different aspects that can be used. Notably, there is currently a single default layout `_layouts/default.html` which removes the need for repeating the header and footer in every new webpage.

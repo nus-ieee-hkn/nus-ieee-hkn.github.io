@@ -1,0 +1,351 @@
+[
+  {
+    "name": "8th Committee (2021)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Vikash Jeyathevan"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Guo Haoren"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Tong Xintong"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Neo Yu Yao Terence"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Oei Chiu Yan Rebecca"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Su Haotian"
+          },
+          {
+            "designation": "Director of Special Projects & Treasurer",
+            "name": "Zhao Shi"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Nathania Santoso"
+          },
+          {
+            "designation": "Club Service Director",
+            "name": "Rohan Arya Varma"
+          },
+          {
+            "designation": "Director of Information Technology",
+            "name": "Ganapathy Sanath Balaji"
+          },
+          {
+            "designation": "Director of Publicity",
+            "name": "Wu Zhen"
+          }
+        ],
+        "semname": "Semester 2 (AY2020/21)"
+      }
+    ]
+  },
+  {
+    "name": "7th Committee (2020)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Vikash Jeyathevan"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Guo Haoren"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Tong Xintong"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Neo Yu Yao Terence"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Oei Chiu Yan Rebecca"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Su Haotian"
+          },
+          {
+            "designation": "Director of Special Projects & Treasurer",
+            "name": "Zhao Shi"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Nathania Santoso"
+          },
+          {
+            "designation": "Club Service Director",
+            "name": "Rohan Arya Varma"
+          },
+          {
+            "designation": "Director of Information Technology",
+            "name": "Ganapathy Sanath Balaji"
+          },
+          {
+            "designation": "Director of Publicity",
+            "name": "Wu Zhen"
+          }
+        ],
+        "semname": "Semester 1 (AY2020/21)"
+      },
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Koo Chong Hao Daryl"
+          },
+          {
+            "designation": "Vice President",
+            "name": "Kuan Tzu Hsiang"
+          },
+          {
+            "designation": "Financial Secretary",
+            "name": "Guo Haoren"
+          },
+          {
+            "designation": "Director of Information Technology",
+            "name": "Neo Yu Yao Terence"
+          },
+          {
+            "designation": "Director of Community Engagement",
+            "name": "Vikash Jeyathevan"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Tong Xintong"
+          },
+          {
+            "designation": "Director of Publicity",
+            "name": "Saif Uddin Mahmud"
+          },
+          {
+            "designation": "Director of Service",
+            "name": "Bhatt Paras Krishna"
+          },
+          {
+            "designation": "Club Service Director",
+            "name": "Julio Hernando Wongso"
+          }
+        ],
+        "semname": "Semester 2 (AY2019/20)"
+      }
+    ]
+  },
+  {
+    "name": "6th Committee (2019)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Koo Chong Hao Daryl"
+          },
+          {
+            "designation": "Vice President",
+            "name": "Kuan Tzu Hsiang"
+          },
+          {
+            "designation": "Financial Secretary",
+            "name": "Guo Haoren"
+          },
+          {
+            "designation": "Director of Information Technology",
+            "name": "Neo Yu Yao Terence"
+          },
+          {
+            "designation": "Director of Community Engagement",
+            "name": "Vikash Jeyathevan"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Tong Xintong"
+          },
+          {
+            "designation": "Director of Publicity",
+            "name": "Saif Uddin Mahmud"
+          },
+          {
+            "designation": "Director of Service",
+            "name": "Bhatt Paras Krishna"
+          },
+          {
+            "designation": "Club Service Director",
+            "name": "Julio Hernando Wongso"
+          }
+        ],
+        "semname": "Semester 1 (AY2019/20)"
+      },
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Fang Xinyi"
+          },
+          {
+            "designation": "Vice President",
+            "name": "Yang Shuli"
+          },
+          {
+            "designation": "Director of Community Engagement",
+            "name": "Koo Chong Hao Daryl"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Yang Shuli"
+          },
+          {
+            "designation": "Director of IT",
+            "name": "Kuan Tzu Hsiang"
+          }
+        ],
+        "semname": "Semester 2 (AY2018/19)"
+      }
+    ]
+  },
+  {
+    "name": "5th Committee (2018)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Peh Xian Bin, Eugene"
+          },
+          {
+            "designation": "Vice President",
+            "name": "Fang Xinyi"
+          },
+          {
+            "designation": "Director of Community Engagement",
+            "name": "Koo Chong Hao Daryl"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Yang Shuli"
+          },
+          {
+            "designation": "Director of IT",
+            "name": "Kuan Tzu Hsiang"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "4th Committee (2016)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Chen Si"
+          },
+          {
+            "designation": "Vice President",
+            "name": "Cheng Shan"
+          },
+          {
+            "designation": "Treasurer",
+            "name": "Li Junbo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "3RD COMMITTEE (2015)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Edward Elson"
+          },
+          {
+            "designation": "Vice President",
+            "name": "Hong Wei Shian"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Jiang Shen Hao"
+          },
+          {
+            "designation": "Treasurer",
+            "name": "Tania Chattopadhay"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "2ND COMMITTEE (2014)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Lim Chai Hou, Danny"
+          },
+          {
+            "designation": "Vice President",
+            "name": "Xu Yinghao"
+          },
+          {
+            "designation": "Vice President",
+            "name": "Quoc Phong Nguyen"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Rajakumar Amritha"
+          },
+          {
+            "designation": "Treasurer",
+            "name": "Limiardi Eka Sancerio"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "1ST COMMITTEE (2013)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Kevin Ardian Fauzie"
+          },
+          {
+            "designation": "Vice President",
+            "name": "Boon Le Wei"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Sun Chenchen"
+          },
+          {
+            "designation": "Treasurer",
+            "name": "Shubendra Agrawal"
+          }
+        ]
+      }
+    ]
+  }
+]
