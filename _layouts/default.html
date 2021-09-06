@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html>
+{% include header.html %}
+<body class="landing is-preload">
+
+	<!-- Page Wrapper -->
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="/">IEEE-HKN NUS</a></h1>
+					{% include nav.html %}
+				</header>
+			
+			<!-- Main -->
+				<article id="main">
+					{% if page.title %}
+					<header>
+						<h2>{{ page.title }}</h2>
+						<p>{{ page.description }}</p>
+					</header>
+					{% endif %}
+				{{ content }}
+				</article>
+			{% include search.html %}
+			{% include footer.html %}
+		</div>
+
+	<!-- Scripts -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/assets/js/browser.min.js"></script>
+	<script src="/assets/js/breakpoints.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<script src="/assets/js/main.js"></script>
+
+</body>
+</html>
