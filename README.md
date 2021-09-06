@@ -1,10 +1,36 @@
-# NUS IEEE HKN
+# LAMBDA OMEGA CHAPTER
 
-This repository contains the code for the NUS IEEE HKN website. It is currently hosted on GitHub pages, and built by Jekyll.
+https://nushkn.org/index.html
 
-## Description
+At National University of Singapore the chapter of IEEE-HKN is named Lambda Omega. The Lambda Omega Chapter is the 176th chapter of IEEE-HKN founded on 2 February 2013.
 
-The website uses Jekyll which supports Liquid, a templating language that can load dynamic content. This allows for some neat features, such as layouts. [From the Liquid documentation](https://jekyllrb.com/docs/layouts/):
+The mission of the Lambda Omega Chapter is to provide special opportunities for close Faculty/Student interactions and relationships, and provide opportunities for students to develop life skills not taught in a formal class environment.
+
+
+**Acknowledgements**:
+
+	Demo Images:
+		Unsplash (unsplash.com)
+
+	Icons:
+		Font Awesome (fontawesome.io)
+		
+	Web Previews:
+		Netlify (www.netlify.com)
+
+	Other:
+		jQuery (jquery.com)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg"/>
+</a>
+
+## Technical details
+
+This repository contains the code for the NUS IEEE HKN website. It is currently hosted on GitHub pages. The website uses Jekyll which supports Liquid, a templating language that can load dynamic content. This allows for some neat features, such as layouts. [From the Liquid documentation](https://jekyllrb.com/docs/layouts/):
 
 > Layouts are templates that wrap around your content. They allow you to have the source code for your template in one place so you don’t have to repeat things like your navigation and footer on every page.
 
