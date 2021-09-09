@@ -6,6 +6,51 @@
         "members": [
           {
             "designation": "President",
+            "name": "Rohan Arya Varma"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Oei Chiu Yan Rebecca"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Su Haotian"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Nathania Santoso"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Low Fang Ming"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Matsutake Teppei"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Nguyen Tien Khoa"
+          },
+          {
+            "designation": "Club Service Director",
+            "name": "Benita Wong Zi Xin"
+          },
+          {
+            "designation": "Director of Information Technology",
+            "name": "Kingston Kuan"
+          },
+          {
+            "designation": "Director of Publicity",
+            "name": "Ricky Wahyudi"
+          }
+        ],
+        "semname": "Semester 1 (AY2021/22)"
+      },
+      {
+        "members": [
+          {
+            "designation": "President",
             "name": "Vikash Jeyathevan"
           },
           {
