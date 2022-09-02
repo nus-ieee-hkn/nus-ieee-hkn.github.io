@@ -1,5 +1,96 @@
 [
   {
+    "name": "9th Committee (2022)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Nguyen Tien Khoa"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Matsutake Teppei"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Benita Wong Zi Xin"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Shreya Pande"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Chua Wan Ning"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Pang Kai Lin"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Tran Thi Phuong Thao"
+          },
+          {
+            "designation": "Club Service Director",
+            "name": "Zhu Shaohan Steven"
+          },
+          {
+            "designation": "Director of Information Technology",
+            "name": "Tra Quang Minh Thong"
+          }
+        ],
+        "semname": "Semester 1 (AY2022/23)"
+      },
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Rohan Arya Varma"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Oei Chiu Yan Rebecca"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Su Haotian"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Nathania Santoso"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Low Fang Ming"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Matsutake Teppei"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Nguyen Tien Khoa"
+          },
+          {
+            "designation": "Club Service Director",
+            "name": "Benita Wong Zi Xin"
+          },
+          {
+            "designation": "Director of Information Technology",
+            "name": "Kingston Kuan"
+          },
+          {
+            "designation": "Director of Publicity",
+            "name": "Ricky Wahyudi"
+          }
+        ],
+        "semname": "Semester 2 (AY2021/22)"
+      }
+    ]
+  },
+  {
     "name": "8th Committee (2021)",
     "semester": [
       {
