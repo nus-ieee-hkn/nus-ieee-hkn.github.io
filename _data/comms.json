@@ -1,34 +1,79 @@
-  [{
+  [
+    {
     "name": "10th Committee (2023)",
     "semester": [
       {
         "members": [
-        {
-        "designation": "President",
-        "name": "Pang Kai Lin"
+          {
+            "designation": "President",
+            "name": "Pang Kai Lin"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Zhu Shaohan Steven"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Chua Wan Ning"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Tran Thi Phuong Thao"
+          },
+          {
+            "designation": "Director of Community Engagement",
+            "name": "Yeoh Jun Ting"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Ho Wei Hao"
+          }
+        ],
+        "semname": "Semester 1 (AY2023/24)"
       },
       {
-        "designation": "Co-Vice President",
-        "name": "Zhu Shaohan Steven"
-      },
       {
-        "designation": "Co-Vice President",
-        "name": "Chua Wan Ning"
-      },
-      {
-        "designation": "Secretary",
-        "name": "Tran Thi Phuong Thao"
-      },
-      {
-        "designation": "Director of Community Engagement",
-        "name": "Yeoh Jun Ting"
-      },
-      {
-        "designation": "Director of External Relations",
-        "name": "Ho Wei Hao"
+        "members": [
+          {
+            "designation": "President",
+            "name": "Nguyen Tien Khoa"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Matsutake Teppei"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Benita Wong Zi Xin"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Shreya Pande"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Chua Wan Ning"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Pang Kai Lin"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Tran Thi Phuong Thao"
+          },
+          {
+            "designation": "Club Service Director",
+            "name": "Zhu Shaohan Steven"
+          },
+          {
+            "designation": "Director of Information Technology",
+            "name": "Tra Quang Minh Thong"
+          }
+        ],
+        "semname": "Semester 2 (AY2022/23)"
       }
-    ],
-    "semname": "Semester 1 (AY2023/24)"
+    ]
   },
   {
     "name": "9th Committee (2022)",
