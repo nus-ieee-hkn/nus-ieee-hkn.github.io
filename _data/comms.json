@@ -1,37 +1,39 @@
-  [{
-      "name": "10th Committee (2023)",
-      "semester": [
-        {
-      "members": [
-        {
-          "designation": "President",
-          "name": "Pang Kai Lin"
-        },
-        {
-          "designation": "Co-Vice President",
-          "name": "Zhu Shaohan Steven"
-        },
-        {
-          "designation": "Co-Vice President",
-          "name": "Chua Wan Ning"
-        },
-        {
-          "designation": "Secretary",
-          "name": "Tran Thi Phuong Thao"
-        },
-        {
-          "designation": "Director of Community Engagement",
-          "name": "Yeoh Jun Ting"
-        },
-        {
-          "designation": "Director of External Relations",
-          "name": "Ho Wei Hao"
-        }
-      ],
-      "semname": "Semester 1 (AY2023/24)"
-    }
-  },
+  [
     {
+    "name": "11th Committee (2024)",
+    "semester": [
+      {
+        "members": [
+          {
+            "designation": "President",
+            "name": "Pang Kai Lin"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Zhu Shaohan Steven"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Chua Wan Ning"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Tran Thi Phuong Thao"
+          },
+          {
+            "designation": "Director of Community Engagement",
+            "name": "Yeoh Jun Ting"
+          },
+          {
+            "designation": "Director of External Relations",
+            "name": "Ho Wei Hao"
+          }
+        ],
+        "semname": "Semester 1 (AY2023/24)"
+      }
+    ]
+  }, 
+  {
     "name": "10th Committee (2023)",
     "semester": [
       {
