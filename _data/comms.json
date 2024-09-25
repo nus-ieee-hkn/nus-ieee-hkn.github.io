@@ -1,7 +1,78 @@
   [
     {
+      "name": "12th Committee (2025)",
+      "semester": [
+        {
+          "members": [  
+          {
+            "designation": "President",
+            "name": "Ho Wei Hao"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Tan Hsien Rong"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Lee Han Wei"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Lee En-Yi Hannah"
+          },
+          {
+            "designation": "Director of Club Service",
+            "name": "Kristoffer Videl Wijono"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Lim Jun Ting"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Keith Tang Yi Heng"
+          }
+        ],
+        "semname": "Semester 2 (AY2024/25)"
+        }
+      ]
+    }
+    {
     "name": "11th Committee (2024)",
     "semester": [
+      {
+        "members": [  
+          {
+            "designation": "President",
+            "name": "Ho Wei Hao"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Tan Hsien Rong"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Lee Han Wei"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Lee En-Yi Hannah"
+          },
+          {
+            "designation": "Director of Club Service",
+            "name": "Kristoffer Videl Wijono"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Lim Jun Ting"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Keith Tang Yi Heng"
+          }
+        ],
+        "semname": "Semester 1 (AY2024/25)"
+      },
       {
         "members": [
           {
