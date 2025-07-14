@@ -1,5 +1,51 @@
   [
     {
+      "name": "13th Committee (2025)",
+      "semester": [
+        {
+          "members": [  
+          {
+            "designation": "President",
+            "name": "Harmony Lau Jue Eern"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Leow Heng Hao, Cedric"
+          },
+          {
+            "designation": "Co-Vice President",
+            "name": "Manasi Narayanan Bharadwaj"
+          },
+          {
+            "designation": "Secretary",
+            "name": "Yao Yao"
+          },
+          {
+            "designation": "Director of Club Service",
+            "name": "Goh Eng Hui Jeremy"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Tay Guang Sheng"
+          },
+          {
+            "designation": "Co-Director of Community Engagement",
+            "name": "Sim Meng Teck"
+          },
+          {
+            "designation": "Co-Director of Special Initiatives",
+            "name": "Chan Zun Mun Terence"
+          },
+          {
+            "designation": "Co-Director of Special Initiatives",
+            "name": "Yandapalli Sri Dhanya"
+          }
+        ],
+        "semname": "Semester 2 (AY2024/25)"
+        }
+      ]
+    },
+    {
       "name": "12th Committee (2025)",
       "semester": [
         {
