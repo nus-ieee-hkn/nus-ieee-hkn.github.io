@@ -4,7 +4,8 @@ title: Committee
 permalink: /committee/
 description: Meet the people who spearhead the various initiatives lauched by IEEE-HKN NUS.
 ---
-	
+
+<link rel="stylesheet" href="/assets/css/headshots.css" />
 <section class="wrapper style5">
 	<div class="inner">
 		{% for comm in site.data.comms %}
@@ -14,33 +15,57 @@ description: Meet the people who spearhead the various initiatives lauched by IE
 			{% if sem.semname %}
 			<h5>{{ sem.semname }}</h5>
 			{% endif %}
-			<div class="table-wrapper">
-				<table>
-					<col width="50%">
-					<col width="50%">
-					<thead>
-						<tr>
-							<th><b>Designation</b></th>
-							<th><b>Name</b></th>	
-						</tr>
-					</thead>
-					<tbody>
+
+			
+			{% if sem.imageView %} <!-- Image View -->
+				<div class="team-grid">
 					{% for member in sem.members %}
-						<tr>
-							<td>{{ member.designation }}</td>
-							<td>
-								{% if member.image %}
-									<img alt="" src="{{ member.image }}" 
-										style="width: 10em; height: 10em;" title="">
-									<br/>
-								{% endif %}
-								<span>{{ member.name }}</span>
-							</td>
-						</tr>
+					<div class="team-member">
+						{% if member.image %}
+							<img alt="" src="{{ member.image }}" 
+								style="width: 9em; height: 9em;" title="">
+							<br/>
+						{% else %}
+							<img alt="" src="/images/headshots/256px-Man_Silhouette2.jpg" 
+								style="width: 9em; height: 9em;" title="">
+							<br/>
+						{% endif %}
+						<b>{{ member.name }}</b>
+						<div class="position">{{ member.designation }}</div>
+						<!--<p class="bio"></p>-->
+					</div>
 					{% endfor %}
-					</tbody>
-				</table>
-			</div>
+				</div>
+			{% else %} <!-- Old View -->
+				<div class="table-wrapper">
+					<table>
+						<col width="50%">
+						<col width="50%">
+						<thead>
+							<tr>
+								<th><b>Designation</b></th>
+								<th><b>Name</b></th>	
+							</tr>
+						</thead>
+						<tbody>
+						{% for member in sem.members %}
+							<tr>
+								<td>{{ member.designation }}</td>
+								<td>
+									{% if member.image %}
+										<img alt="" src="{{ member.image }}" 
+											style="width: 10em; height: 10em;" title="">
+										<br/>
+									{% endif %}
+									<span>{{ member.name }}</span>
+								</td>
+							</tr>
+						{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			{% endif %}
+			
 			{% endfor %}
 		</section>
 
