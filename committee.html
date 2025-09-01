@@ -21,14 +21,21 @@ description: Meet the people who spearhead the various initiatives lauched by IE
 					<thead>
 						<tr>
 							<th><b>Designation</b></th>
-							<th><b>Name</b></th>													
+							<th><b>Name</b></th>	
 						</tr>
 					</thead>
 					<tbody>
 					{% for member in sem.members %}
 						<tr>
 							<td>{{ member.designation }}</td>
-							<td>{{ member.name }}</td>
+							<td>
+								{% if member.image %}
+									<img alt="" src="{{ member.image }}" 
+										style="width: 10em; height: 10em;" title="">
+									<br/>
+								{% endif %}
+								<span>{{ member.name }}</span>
+							</td>
 						</tr>
 					{% endfor %}
 					</tbody>

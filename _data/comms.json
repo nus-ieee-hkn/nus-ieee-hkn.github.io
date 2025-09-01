@@ -6,23 +6,28 @@
           "members": [  
           {
             "designation": "President",
-            "name": "Harmony Lau Jue Eern"
+            "name": "Harmony Lau Jue Eern", 
+            "image": "/images/headshots/exco/ay2526/harmony.JPG"
           },
           {
             "designation": "Co-Vice President",
-            "name": "Leow Heng Hao, Cedric"
+            "name": "Leow Heng Hao, Cedric", 
+            "image": "/images/headshots/exco/ay2526/cedric.JPG"
           },
           {
             "designation": "Co-Vice President",
-            "name": "Manasi Narayanan Bharadwaj"
+            "name": "Manasi Narayanan Bharadwaj", 
+            "image": "/images/headshots/exco/ay2526/manasi.JPG"
           },
           {
             "designation": "Secretary",
-            "name": "Yao Yao"
+            "name": "Yao Yao", 
+            "image": "/images/headshots/exco/ay2526/yao_yao.JPG"
           },
           {
             "designation": "Director of Club Service",
-            "name": "Goh Eng Hui Jeremy"
+            "name": "Goh Eng Hui Jeremy", 
+            "image": "/images/headshots/exco/ay2526/jeremy.JPG"
           },
           {
             "designation": "Co-Director of Community Engagement",
@@ -30,15 +35,18 @@
           },
           {
             "designation": "Co-Director of Community Engagement",
-            "name": "Sim Meng Teck"
+            "name": "Sim Meng Teck", 
+            "image": "/images/headshots/exco/ay2526/meng_teck.JPG"
           },
           {
             "designation": "Co-Director of Special Initiatives",
-            "name": "Chan Zun Mun Terence"
+            "name": "Chan Zun Mun Terence", 
+            "image": "/images/headshots/exco/ay2526/terence.JPG"
           },
           {
             "designation": "Co-Director of Special Initiatives",
-            "name": "Yandapalli Sri Dhanya"
+            "name": "Yandapalli Sri Dhanya", 
+            "image": "/images/headshots/exco/ay2526/dhanya.JPG"
           }
         ],
         "semname": "Semester 1 (AY2025/26)"
