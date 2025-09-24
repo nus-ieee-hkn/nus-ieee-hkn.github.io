@@ -1,41 +1,141 @@
 [
   {
     "name": "INDUCTED IN ACADEMIC YEAR 2025/2026",
-    "members": [  
-      "Agarwal Moksh",
-      "Ashlee Chang Yee Ting",
-      "Badrinath Sandhya",
-      "Chakraborty Shrabasti",
-      "Chang Yichun",
-      "Chen Shimin",
-      "Fam Jia Wen",
-      "Foo Kang",
-      "Gao Wenbin, Kenneth",
-      "Gu Mingyoujia",
-      "Guan Yongzhi",
-      "Gupta Shashwat",
-      "Heng Teng Yi",
-      "Himani Vinod Vasnani",
-      "Jerry Andikko",
-      "Katelyn Teoh Shu Hui",
-      "Kenneth Wong Cun Wi",
-      "Lai Xuan Hua",
-      "Liew Kang Zhen",
-      "Lim Zerui",
-      "Luo Hongxun",
-      "Mao Xiaohan",
-      "Mayukh Ghosh",
-      "Mayuresh Srivastava",
-      "Ong Yi Siang Joel",
-      "Rehaan Mahmood",
-      "Sanghi Nishchay",
-      "Tan Zheng Jie",
-      "Teoh Eng Boon",
-      "Wang Wenmiao",
-      "Wong Jian Bin",
-      "Yap Han",
-      "Zhu Wenbo"
-    ]          
+    "imageView": true, 
+    "members": [
+      {
+        "name": "Agarwal Moksh",
+        "image": "/images/headshots/members/ay2526/agarwal_moksh.JPG"
+      },
+      {
+        "name": "Ashlee Chang Yee Ting",
+        "image": "/images/headshots/members/ay2526/ashlee_chang_yee_ting.JPG"
+      },
+      {
+        "name": "Badrinath Sandhya",
+        "image": "/images/headshots/members/ay2526/badrinath_sandhya.JPG"
+      },
+      {
+        "name": "Chakraborty Shrabasti",
+        "image": "/images/headshots/members/ay2526/chakraborty_shrabasti.JPG"
+      },
+      {
+        "name": "Chang Yichun",
+        "image": "/images/headshots/members/ay2526/chang_yichun.JPG"
+      },
+      {
+        "name": "Chen Shimin",
+        "image": "/images/headshots/members/ay2526/chen_shimin.JPG"
+      },
+      {
+        "name": "Fam Jia Wen",
+        "image": "/images/headshots/members/ay2526/fam_jia_wen.JPG"
+      },
+      {
+        "name": "Foo Kang",
+        "image": "/images/headshots/members/ay2526/foo_kang.JPG"
+      },
+      {
+        "name": "Gao Wenbin, Kenneth",
+        "image": "/images/headshots/members/ay2526/gao_wenbin_kenneth.JPG"
+      },
+      {
+        "name": "Gu Mingyoujia",
+        "image": "/images/headshots/members/ay2526/gu_mingyoujia.JPG"
+      },
+      {
+        "name": "Guan Yongzhi",
+        "image": "/images/headshots/members/ay2526/guan_yongzhi.JPG"
+      },
+      {
+        "name": "Gupta Shashwat",
+        "image": "/images/headshots/members/ay2526/gupta_shashwat.JPG"
+      },
+      {
+        "name": "Heng Teng Yi",
+        "image": "/images/headshots/members/ay2526/heng_teng_yi.JPG"
+      },
+      {
+        "name": "Himani Vinod Vasnani",
+        "image": "/images/headshots/members/ay2526/himani_vinod_vasnani.JPG"
+      },
+      {
+        "name": "Jerry Andikko",
+        "image": "/images/headshots/members/ay2526/jerry_andikko.JPG"
+      },
+      {
+        "name": "Katelyn Teoh Shu Hui",
+        "image": "/images/headshots/members/ay2526/katelyn_teoh_shu_hui.JPG"
+      },
+      {
+        "name": "Kenneth Wong Cun Wi",
+        "image": "/images/headshots/members/ay2526/kenneth_wong_cun_wi.JPG"
+      },
+      {
+        "name": "Lai Xuan Hua",
+        "image": "/images/headshots/members/ay2526/lai_xuan_hua.JPG"
+      },
+      {
+        "name": "Liew Kang Zhen",
+        "image": "/images/headshots/members/ay2526/liew_kang_zhen.JPG"
+      },
+      {
+        "name": "Lim Zerui",
+        "image": "/images/headshots/members/ay2526/lim_zerui.JPG"
+      },
+      {
+        "name": "Luo Hongxun",
+        "image": "/images/headshots/members/ay2526/luo_hongxun.JPG"
+      },
+      {
+        "name": "Mao Xiaohan",
+        "image": "/images/headshots/members/ay2526/mao_xiaohan.JPG"
+      },
+      {
+        "name": "Mayukh Ghosh",
+        "image": "/images/headshots/members/ay2526/mayukh_ghosh.JPG"
+      },
+      {
+        "name": "Mayuresh Srivastava",
+        "image": "/images/headshots/members/ay2526/mayuresh_srivastava.JPG"
+      },
+      {
+        "name": "Ong Yi Siang Joel",
+        "image": "/images/headshots/members/ay2526/ong_yi_siang_joel.JPG"
+      },
+      {
+        "name": "Rehaan Mahmood",
+        "image": "/images/headshots/members/ay2526/rehaan_mahmood.JPG"
+      },
+      {
+        "name": "Sanghi Nishchay",
+        "image": "/images/headshots/members/ay2526/sanghi_nishchay.JPG"
+      },
+      {
+        "name": "Tan Zheng Jie",
+        "image": "/images/headshots/members/ay2526/tan_zheng_jie.JPG"
+      },
+      {
+        "name": "Teoh Eng Boon",
+        "image": "/images/headshots/members/ay2526/teoh_eng_boon.JPG"
+      },
+      {
+        "name": "Wang Wenmiao",
+        "image": "/images/headshots/members/ay2526/wang_wenmiao.JPG"
+      },
+      {
+        "name": "Wong Jian Bin",
+        "image": "/images/headshots/members/ay2526/wong_jian_bin.JPG"
+      },
+      {
+        "name": "Yap Han",
+        "image": "/images/headshots/members/ay2526/yap_han.JPG"
+      },
+      {
+        "name": "Zhu Wenbo",
+        "image": "/images/headshots/members/ay2526/zhu_wenbo.JPG"
+      }
+    ]              
   },
   {
     "name": "INDUCTED IN ACADEMIC YEAR 2024/2025",

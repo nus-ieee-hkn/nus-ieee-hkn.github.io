@@ -5,26 +5,48 @@ permalink: /members/
 description: Interested in finding out who are in IEEE-HKN NUS? View all members.
 ---
 	
+<link rel="stylesheet" href="/assets/css/headshots.css" />
 <section class="wrapper style5">
 	<div class="inner">
 		<!-- Add new inducted members here -->
 		{% for yr in site.data.members %}
 		<section>
 			<h4 align="center">{{ yr.name }}</h4>
-			<div class="table-wrapper">
-				<table>
-					<thead>
-						<tr>
-							<th></th>
-						</tr>
-					</thead>
-					<tbody>
-						{% for member in yr.members %}
-						<tr><td align="center">{{ member }}</td></tr>
-						{% endfor %}
-					</tbody>
-				</table>
-			</div>
+			{% if yr.imageView %} <!-- Image View -->
+				<div class="team-grid">
+					{% for member in yr.members %}
+					<div class="team-member">
+						{% if member.image %}
+							<img alt="" src="{{ member.image }}" 
+								style="width: 9em; height: 9em;" title="">
+							<br/>
+						{% else %}
+							<img alt="" src="/images/headshots/256px-Man_Silhouette2.jpg" 
+								style="width: 9em; height: 9em;" title="">
+							<br/>
+						{% endif %}
+						<b>{{ member.name }}</b>
+						<div class="position">{{ member.designation }}</div>
+						<!--<p class="bio"></p>-->
+					</div>
+					{% endfor %}
+				</div>
+			{% else %} <!-- Old View -->
+				<div class="table-wrapper">
+					<table>
+						<thead>
+							<tr>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for member in yr.members %}
+							<tr><td align="center">{{ member }}</td></tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			{% endif %}
 		</section>
 
 		<br><br>
