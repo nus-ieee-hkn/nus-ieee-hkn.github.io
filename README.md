@@ -61,3 +61,24 @@ To be able to test the site locally, Jekyll would have to be setup as per the in
 ## Usage
 
 Take a look at the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) to see the different aspects that can be used. Notably, there is currently a single default layout `_layouts/default.html` which removes the need for repeating the header and footer in every new webpage.
+
+## Updating News Content
+
+The website displays HKN-related news from the NUS ECE news page. The news content is pulled from a local reference file `cde_ref.html`. To update this file with the latest news from the NUS ECE website, run:
+
+**Using curl (Windows/Linux/Mac):**
+```bash
+curl -o cde_ref.html https://cde.nus.edu.sg/ece/highlights/news/
+```
+
+**Using wget (Linux/Mac):**
+```bash
+wget -O cde_ref.html https://cde.nus.edu.sg/ece/highlights/news/
+```
+
+**Using PowerShell (Windows):**
+```powershell
+Invoke-WebRequest -Uri https://cde.nus.edu.sg/ece/highlights/news/ -OutFile cde_ref.html
+```
+
+After updating `cde_ref.html`, the website will automatically display any news entries that contain "HKN" in the title or description when the page loads.
