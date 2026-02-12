@@ -119,14 +119,12 @@
         if (!container) {
             container = document.createElement('div');
             container.id = 'hkn-news-container';
-            container.style.marginTop = '30px';
             container.style.width = '100%';
             newsSection.appendChild(container);
         } else {
             // Clear existing contents
             container.innerHTML = '';
             // Ensure styles are set
-            container.style.marginTop = '30px';
             container.style.width = '100%';
         }
         
@@ -268,13 +266,10 @@
         if (!container) {
             container = document.createElement('div');
             container.id = 'hkn-news-container';
-            container.style.marginTop = '30px';
             newsSection.appendChild(container);
         } else {
             // Clear existing contents
             container.innerHTML = '';
-            // Ensure styles are set
-            container.style.marginTop = '30px';
         }
         
         container.innerHTML = '<p style="text-align: center; color: #d32f2f;">' + message + '</p>';

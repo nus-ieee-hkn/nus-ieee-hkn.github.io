@@ -96,7 +96,7 @@ layout: default
 				<p>Stay updated with the latest news from the Department of Electrical and Computer Engineering.</p>
 			</header>
 
-			<div id="hkn-news-container" style="margin-top: 30px;">
+			<div id="hkn-news-container">
 				<p style="text-align: center; color: #666;">Loading HKN-related news...</p>
 			</div>
 
@@ -111,9 +111,18 @@ layout: default
 
 <!-- CTA -->
 <style>
+	#cta.wrapper.style4 {
+		background-size: cover !important;
+		background-position: center center !important;
+		background-repeat: no-repeat !important;
+		background-attachment: fixed;
+	}
 	@media (max-width: 768px) {
 		.wrap-on-small {
 			flex-wrap: wrap;
+		}
+		#cta.wrapper.style4 {
+			background-attachment: scroll;
 		}
 	}
 	</style>
