@@ -35,7 +35,7 @@
 											<li><a href="index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
 											<!-- To be implemented -->
 											<li><a href="about.html"><i class="fa fa-info fa-fw" aria-hidden="true"></i>&nbsp; About</a></li>
-											<li><a href="https://nus-ieee-hkn.github.io/news/"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>&nbsp; News</a></li>
+											<li><a href="news-ece.html"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>&nbsp; News</a></li>
 											<li><a href="resources.html"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Resources</a></li>
 											<li><a href="calendar.html"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp; Calendar</a></li>
 											<li><a href="committee.html"><i class="fa fa-user-secret fa-fw" aria-hidden="true"></i>&nbsp; Committee</a></li>
