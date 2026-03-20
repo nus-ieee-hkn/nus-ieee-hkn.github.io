@@ -3,6 +3,32 @@
 (function() {
     'use strict';
 
+    function ensureResponsiveStyles() {
+        if (document.getElementById('hkn-news-responsive-styles')) {
+            return;
+        }
+
+        const style = document.createElement('style');
+        style.id = 'hkn-news-responsive-styles';
+        style.textContent = `
+            @media (max-width: 768px) {
+                .hkn-news-card {
+                    flex-direction: column !important;
+                }
+                .hkn-news-image-container {
+                    width: 100% !important;
+                    height: 220px !important;
+                    min-height: 220px !important;
+                    align-self: auto !important;
+                }
+                .hkn-news-text-container {
+                    padding: 16px !important;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
     // Function to fetch and parse news from local cde_ref.html file
     async function fetchHKNNews() {
         try {
@@ -111,6 +137,8 @@
     
     // Function to display HKN news items
     function displayHKNNews(newsItems) {
+        ensureResponsiveStyles();
+
         const newsSection = document.querySelector('#news .inner');
         if (!newsSection) return;
         
@@ -161,6 +189,7 @@
             card.style.width = '100%';
             card.style.boxSizing = 'border-box';
             card.style.overflow = 'hidden';
+            card.classList.add('hkn-news-card');
             
             // Hover effect
             card.onmouseenter = function() {
@@ -181,6 +210,7 @@
             imageContainer.style.borderRadius = '0';
             imageContainer.style.backgroundColor = '#f0f0f0';
             imageContainer.style.alignSelf = 'stretch';
+            imageContainer.classList.add('hkn-news-image-container');
             
             const image = document.createElement('img');
             image.src = item.imageUrl || '';
@@ -213,6 +243,7 @@
             textContainer.style.gap = '10px';
             textContainer.style.color = '#000';
             textContainer.style.padding = '20px';
+            textContainer.classList.add('hkn-news-text-container');
             
             // Title
             const title = document.createElement('h3');
