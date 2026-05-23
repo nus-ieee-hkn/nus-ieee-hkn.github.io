@@ -67,3 +67,12 @@ Take a look at the [Jekyll Step by Step Tutorial](https://jekyllrb.com/docs/step
 The website displays HKN-related news from the NUS ECE news page. The news content is pulled from a local reference file `cde_ref.html`. To update this file with the latest news from the NUS ECE website, 
 1. Go to https://cde.nus.edu.sg/ece/highlights/news/ and view page source
 2. Copy the contents into cde_ref.html
+
+Potential improvement
+1. Set the website to automatically pull content from NUS ECE website
+2. Pull all the IEEE-HKN posts from NUS ECE website instead of only the first few
+
+## Updating Exco/ Members
+
+1. Headshots (resized to be a square format) can be uploaded at `/images/headshots/`
+2. You can modify the json accordingly in `_data/members.json` or `_data/comms.json`
