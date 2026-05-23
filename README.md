@@ -76,3 +76,7 @@ Potential improvement
 
 1. Headshots (resized to be a square format) can be uploaded at `/images/headshots/`
 2. You can modify the json accordingly in `_data/members.json` or `_data/comms.json`
+
+## Updating Home Page Pictures
+
+Can change the image path at https://github.com/nus-ieee-hkn/nus-ieee-hkn.github.io/blob/5248369ce613a1ab205fb3b0affdd5c2cc6449a1/assets/css/main.css#L3796
