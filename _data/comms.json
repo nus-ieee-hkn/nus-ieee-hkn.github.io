@@ -1,5 +1,55 @@
   [
     {
+      "name": "14th Committee (2026)",
+      "semester": [
+        {
+          "members": [
+            {
+              "designation": "President",
+              "name": "Ashlee Chang",
+              "image": "/images/headshots/members/ay2526/ashlee_chang_yee_ting.JPG"
+            },
+            {
+              "designation": "Vice President (Internal)",
+              "name": "Shaked Shalev"
+            },
+            {
+              "designation": "Vice President (External)",
+              "name": "Yandapalli Sri Dhanya",
+              "image": "/images/headshots/exco/ay2526/dhanya.JPG"
+            },
+            {
+              "designation": "Secretary",
+              "name": "Wang Wenmiao",
+              "image": "/images/headshots/members/ay2526/wang_wenmiao.JPG"
+            },
+            {
+              "designation": "Director of Club Service",
+              "name": "Fam Jia Wen",
+              "image": "/images/headshots/members/ay2526/fam_jia_wen.JPG"
+            },
+            {
+              "designation": "Director of Community Engagement",
+              "name": "Katelyn Teoh",
+              "image": "/images/headshots/members/ay2526/katelyn_teoh_shu_hui.JPG"
+            },
+            {
+              "designation": "Director of Special Initiatives",
+              "name": "Terence Chan",
+              "image": "/images/headshots/exco/ay2526/terence.JPG"
+            },
+            {
+              "designation": "Director of Special Initiatives",
+              "name": "Zhu Wenbo",
+              "image": "/images/headshots/members/ay2526/zhu_wenbo.JPG"
+            }
+          ],
+          "semname": "Semester 1 (AY2026/27)",
+          "imageView": true
+        }
+      ]
+    },
+    {
       "name": "13th Committee (2025)",
       "semester": [
         {
