@@ -1,39 +1,136 @@
 [
   {
     "name": "INDUCTED IN ACADEMIC YEAR 2026/2027",
+    "imageView": true,
     "members": [
-      "Advait Bagri",
-      "An Wei Teck",
-      "Cai Yi Hang",
-      "Cao Yucheng",
-      "Carson Tai Kar Shing",
-      "Chen Cheng-Shih",
-      "Chloe Ong Su Neng",
-      "Feng Run",
-      "Garg Divyansh",
-      "He Jiaxie",
-      "Heng Yong Hen",
-      "Kaitlyn Iliana Toniman",
-      "Kaushal Rajesh",
-      "Koh Wei Xuan",
-      "Kothari Aadi",
-      "Lee Cheong Weng Justin",
-      "Leong Xu Zhe",
-      "Lim Jing Run",
-      "Nanda Harshiet",
-      "Ng Xi",
-      "Ng Zhi Tao Paul",
-      "Ong Yik How Howard",
-      "Seam Shaurya",
-      "Seow Rui Kai, Reynard",
-      "Spencer Ting Tiew Yu",
-      "Su Yuchen",
-      "Tee Ren Wey",
-      "Teoh Khai Xian",
-      "Yang Xinjian",
-      "Yew Su Yi",
-      "Yu Qi Yuan",
-      "Zhang Yinlu"
+      {
+        "name": "Advait Bagri",
+        "image": "/images/headshots/members/ay2627/advait_bagri.jpg"
+      },
+      {
+        "name": "An Wei Teck",
+        "image": "/images/headshots/members/ay2627/an_wei_teck.JPG"
+      },
+      {
+        "name": "Cai Yi Hang",
+        "image": "/images/headshots/members/ay2627/cai_yi_hang.JPG"
+      },
+      {
+        "name": "Cao Yucheng",
+        "image": "/images/headshots/members/ay2627/cao_yu_cheng.JPG"
+      },
+      {
+        "name": "Carson Tai Kar Shing",
+        "image": "/images/headshots/members/ay2627/carson_tai_kar_shing.JPG"
+      },
+      {
+        "name": "Chen Cheng-Shih",
+        "image": "/images/headshots/members/ay2627/chen_cheng_shih.JPG"
+      },
+      {
+        "name": "Chloe Ong Su Neng",
+        "image": "/images/headshots/members/ay2627/chloe_ong_su_neng.JPG"
+      },
+      {
+        "name": "Feng Run",
+        "image": "/images/headshots/members/ay2627/feng_run.JPG"
+      },
+      {
+        "name": "Garg Divyansh",
+        "image": "/images/headshots/members/ay2627/garg_divyansh.JPG"
+      },
+      {
+        "name": "He Jiaxie",
+        "image": "/images/headshots/members/ay2627/he_jiaxie.JPG"
+      },
+      {
+        "name": "Heng Yong Hen",
+        "image": "/images/headshots/members/ay2627/heng_yong_hen.JPG"
+      },
+      {
+        "name": "Kaitlyn Iliana Toniman",
+        "image": "/images/headshots/members/ay2627/kaitlyn_iliana_toniman.JPG"
+      },
+      {
+        "name": "Kaushal Rajesh",
+        "image": "/images/headshots/members/ay2627/kaushal_rajesh.JPG"
+      },
+      {
+        "name": "Koh Wei Xuan",
+        "image": "/images/headshots/members/ay2627/koh_wei_xuan.JPG"
+      },
+      {
+        "name": "Kothari Aadi",
+        "image": "/images/headshots/members/ay2627/kothari_aadi.JPG"
+      },
+      {
+        "name": "Lee Cheong Weng Justin",
+        "image": "/images/headshots/members/ay2627/lee_cheong_weng_justin.JPG"
+      },
+      {
+        "name": "Leong Xu Zhe",
+        "image": "/images/headshots/members/ay2627/leong_xu_zhe.JPG"
+      },
+      {
+        "name": "Lim Jing Run",
+        "image": "/images/headshots/members/ay2627/lim_jing_run.JPG"
+      },
+      {
+        "name": "Nanda Harshiet",
+        "image": "/images/headshots/members/ay2627/nanda_harshiet.JPG"
+      },
+      {
+        "name": "Ng Xi",
+        "image": "/images/headshots/members/ay2627/ng_xi.JPG"
+      },
+      {
+        "name": "Ng Zhi Tao Paul",
+        "image": "/images/headshots/members/ay2627/ng_zhi_tao_paul.JPG"
+      },
+      {
+        "name": "Ong Yik How Howard",
+        "image": "/images/headshots/members/ay2627/ong_yik_how_howard.JPG"
+      },
+      {
+        "name": "Seam Shaurya",
+        "image": "/images/headshots/members/ay2627/seam_shaurya.JPG"
+      },
+      {
+        "name": "Seow Rui Kai, Reynard",
+        "image": "/images/headshots/members/ay2627/seow_rui_kai_reynard.JPG"
+      },
+      {
+        "name": "Spencer Ting Tiew Yu",
+        "image": "/images/headshots/members/ay2627/spencer_ting_tiew_yu.JPG"
+      },
+      {
+        "name": "Su Yuchen",
+        "image": "/images/headshots/members/ay2627/su_yuchen.JPG"
+      },
+      {
+        "name": "Tee Ren Wey",
+        "image": "/images/headshots/members/ay2627/tee_ren_wey.JPG"
+      },
+      {
+        "name": "Teoh Khai Xian",
+        "image": "/images/headshots/members/ay2627/teoh_khai_xian.JPG"
+      },
+      {
+        "name": "Yang Xinjian",
+        "image": "/images/headshots/members/ay2627/yang_xinjian.JPG"
+      },
+      {
+        "name": "Yew Su Yi",
+        "image": "/images/headshots/members/ay2627/yew_su_yi.JPG"
+      },
+      {
+        "name": "Yu Qi Yuan",
+        "image": "/images/headshots/members/ay2627/yu_qi_yuan.JPG"
+      },
+      {
+        "name": "Zhang Yinlu",
+        "image": "/images/headshots/members/ay2627/zhang_yinlu.JPG"
+      }
     ]
   },
   {
